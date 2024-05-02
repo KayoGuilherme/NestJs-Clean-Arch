@@ -36,7 +36,6 @@ describe('UserEntity unit tests', () => {
     const entity = new StubEntity(props, id);
 
     expect(entity.toJson()).toStrictEqual({id, ...props});
-
   });
 
 
